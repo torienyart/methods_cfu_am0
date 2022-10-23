@@ -12,16 +12,26 @@
 
 "Hello World".include?("Hello")
 
+#This method will return a true/false answer to let us know if "Hello" is included
+#in the preceeding data. TRUE
+
 
 "Hello World".end_with?("Hello")
+
+#This method will return a true/false answer to let us know if the preceeding statement
+#ends in "Hello". FALSE
 
 
 "Hello World".end_with?("rld")
 
+#This method will return a true/false answer to let us know if the preceeding statement
+#ends in "rld". TRUE
 
 12.even?
 
+#This method will ask if the integer 12 is an even number.  TRUE
 
 18.next
 
+#This method will return a the next integer after the preceeding value. 19
 
